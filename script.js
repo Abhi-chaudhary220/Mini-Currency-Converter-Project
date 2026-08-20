@@ -17,8 +17,8 @@ for(let select of dropDown){
             options.selected = "selected";
         }
         if(select.id === "toCurrency" && currCode === "INR"){
-            options.selected = "selected"
+            options.selected = "selected";
         }
-        select.appendChild(options)
+        select.appendChild(options);
     }
 }

@@ -21,21 +21,13 @@ h2{
     text-align: center;
 }
 .container{
-    /* height: 80vh; */
-    /* max-height: 100vh; */
     width: 100%;
     max-width: 400px;
     border: 3px solid rgb(165, 120, 72);
-    /* display: flex;
-    
-    justify-content: center;
-    align-items: center;
-    gap: 0px; */
     border-radius: 20px;
     padding: 30px 20px;
     background-color: rgba(238, 230, 230, 0.9);
     box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
-
     }
 
     .form{
@@ -44,21 +36,26 @@ h2{
         align-items: center;
         flex-direction: column;
         width: 100%;
+        gap: 15px;
     }
 
+    
     #text{
         color:rgb(102, 4, 194);
         font-weight: bold;
+        margin-bottom: 5px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
     #from{
         color: rgb(4, 121, 107);
+        margin-bottom: 5px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
     #to{
         color: rgb(4, 121, 107);
+        margin-bottom: 5px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
@@ -68,35 +65,44 @@ h2{
         flex-direction: column;
         align-items: center;
         text-align: center;
+        gap: 15px;
         
 }
+
     .select-container select{
         background-color: rgb(243, 159, 3);
         border: none;
         color: rgb(54, 12, 12);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        padding: 8px 60px;
+        padding: 8px 20px;
         border-radius: 5px;
-        width: 100%;
+        width: 60%;
         text-align: center;
     }
+
+    .select-container img {
+    min-width: auto;
+    max-width: 60%;
+}
 
     
     #input{
         border-radius: 200px;
         background-color: rgb(138, 109, 109);
-        width: 80%;
+        width: 90%;
         color: rgb(225, 220, 220);
         font-weight: 450;
-        padding: 10px;
+        padding: 12px;
         text-align: center;
         border: none;
+        font-size: 15px;;
     }
 
     .msg{
         color: rgb(127, 8, 132);
         font-family: sans-serif;
         margin-top: 5px;
+        font-size: 16px;
         font-weight: bold;
     }
 
@@ -105,12 +111,13 @@ h2{
         border: none;
         color: rgb(242, 236, 239);
         font-family: sans-serif;
-        width: 80%;
+        width: 90%;
         border-radius: 5px;
         padding: 12px;
         font-weight: bold;
         cursor: pointer;
         transition: 0.2s;
+        margin-top: 10px;
     }
 
     #btn:hover{

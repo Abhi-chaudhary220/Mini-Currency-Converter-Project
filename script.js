@@ -13,6 +13,12 @@ for(let select of dropDown){
         let options = document.createElement("option");
         options.innerText = currCode;
         options.value = currCode;
+        if(select.id ==="fromCurrency" && currCode === "USD"){
+            options.selected = "selected";
+        }
+        if(select.id === "toCurrency" && currCode === "INR"){
+            options.selected = "selected";
+        }
         select.appendChild(options);
     }
 }

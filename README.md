@@ -1,8 +1,8 @@
-# 💱 Currency Converter
+# 💱 Rateshift
 
-A simple and responsive Currency Converter web application that helps users calculate exchange rates between different world currencies.
+A simple and responsive RateShift web application that helps users calculate exchange rates between different world currencies.
 
-🌐 **Live Demo:** https://mini-currency-converter-project.netlify.app/
+🌐 **Live Demo:** https://rateshift-project.netlify.app/
 
 ### 🚀 Key Features:
 - Instant currency conversion.
